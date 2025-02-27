@@ -180,8 +180,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or feedback, feel free to reach out:
 
 - **Email**: aravinda1998@gmail.com
-- **GitHub**: [your-username](https://github.com/Aravinda-Gamage-v1-1)
-- **LinkedIn**: [Your Name](https://linkedin.com/in/aravindagamage)
+- **GitHub**: [Aravinda Gamage](https://github.com/Aravinda-Gamage-v1-1)
+- **LinkedIn**: [Aravinda Gamage](https://linkedin.com/in/aravindagamage)
 
 ---
 
