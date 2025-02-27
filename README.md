@@ -181,7 +181,7 @@ For any questions or feedback, feel free to reach out:
 
 - **Email**: aravinda1998@gmail.com
 - **GitHub**: [Aravinda Gamage](https://github.com/Aravinda-Gamage-v1-1)
-- **LinkedIn**: [Aravinda Gamage](https://linkedin.com/in/aravindagamage)
+- **LinkedIn**: [Aravinda Gamage](https://www.linkedin.com/in/aravinda-gamage-88ab91287/)
 
 ---
 
