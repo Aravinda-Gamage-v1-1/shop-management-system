@@ -26,11 +26,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(cors());
-const dbConnection = require('./db/DBConnection');
+const dbConnection = require('./config/DBConnection');
 dbConnection();
 
 
-const authenticateToken = require('./auth/authenticateToken');
+const authenticateToken = require('./middleware/authMiddleware');
 
 app.use((req, res, next) => {
 
