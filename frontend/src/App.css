@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth;
+}
+#btn-log,#signIn,#signUp,#adminLogOut,#card-payment,#userLogOut,#sendOffer,#offer-send{
+    padding: 0.593vw 1.112vw;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+    margin: 1.853vw 0;
+    border-radius: 0.741vw;
+    border: 0.148vw solid #E9C54A;
+    background: linear-gradient(to left, #ffffff 50%, rgba(59, 59, 59, 0.9) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    font-size: 0.8vw;
+}
+#btn-log:hover,#signIn:hover,#signUp:hover,#adminLogOut:hover,#card-payment:hover,#userLogOut:hover,#sendOffer:hover,#offer-send:hover{
+    background-position: left;
+    color: #ffffff;
+}
+.nav-bar{
+    box-shadow: 0px 1px 10px #C2C3C2;
+}
+#log-in-container{
+    box-shadow: 0px 1px 10px #C2C3C2;
+}
+.font{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#sign-up-container{
+    width: 60vw;
+    height: 72vh;
+    background-color: white;
+    box-shadow: 0px 1px 10px #C2C3C2;
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.form-control:focus {
+    border-color: #FFA633;
+    box-shadow: inset 1px 1px #FFA633, 0 0 4px #FFA633;
+}
+
+#log-in-btn:hover{
+    color: #ffffff !important;
+    position: absolute;
+    background-color: rgba(59, 59, 59, 0.9) !important;
+    box-shadow: none !important;
+    border-color: #000000FF;
+}
+#signup-page-signup:hover{
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    box-shadow: none !important;
+}
+#user-nav-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 5%;
+    background-color: #2C3E50;
+    box-shadow: 0px 1px 10px #FFA633;
+    z-index: 16;
+}
+#bar-icon:hover{
+    transform: scale(1.8);
+    transition: all 0.2s;
+}
+.admin-icon:hover{
+    transform: scale(1.3);
+    transition: all 0.2s;
+}
+
+/*///////////// Customer ////////////////*/
+.star-label span {
+    font-size: 3vw;
+    color: #ccc;
+    margin-right: 5px;
+}
+
+.rating {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.star-label {
+    position: relative;
+    cursor: pointer;
+    margin-right: 2vw;
+}
+
+.star-label img {
+    position: absolute;
+    top: 12vh;
+    left: -0.2vw;
+    width: 6vw;
+    display: none;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating input[type="radio"]:checked ~ .star-label img {
+    display: block;
+}
+
+.rating input[type="radio"]:checked ~ .star-label span {
+    color: #fdd835;
+}
